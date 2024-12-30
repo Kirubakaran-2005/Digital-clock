@@ -1,0 +1,47 @@
+.heading
+{
+    text-align: center;
+    margin-top:100px;
+    color:rgb(255, 47, 64);
+    font-size:60px;
+}
+#clock
+{
+    text-align:center;
+    max-width:400px;
+    margin:auto;
+    padding-bottom:20px;
+    box-shadow:4px 5px hwb(0 31% 68%);
+    background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
+    border-radius:10px;
+}
+body{
+    background-color:rgb(230, 224, 218);
+}
+.buttons
+{
+    margin-top:60px;
+    background-color:rgb(195, 0, 255);
+    box-shadow:2px 3px hsl(0, 0%, 20%);
+    color:white;
+    font-size:25px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    
+}
+.buttons:hover
+{
+    background-color:hsl(192, 100%, 30%);
+}
+#time
+{
+    margin-top:50px;
+    font-size: 55px;
+    color: rgb(255, 251, 20);    
+}
+#ddmmyy
+{
+    padding-top:20px;
+    color:rgb(0, 255, 234);
+}
